@@ -1,0 +1,31 @@
+.table,td,th{
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+.smx-m04{
+    text-decoration: underline;
+    background-color: chartreuse
+}
+
+.smx-m06{
+    text-decoration: underline;
+    background-color: blue;
+
+}
+
+.smx-m08{
+    text-decoration: underline;
+    background-color: aquamarine;
+
+}
+.smx-m07{
+    background-color: brown;
+}
+.smx-m10iei{
+   background-color: blueviolet;
+}
+.Tut-alum{
+    background-color: bisque;
+    text-decoration: underline;
+}
