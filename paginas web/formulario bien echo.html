@@ -7,8 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="../css/formulario.css"/>
     </head>
-    <body>
-         <h1>Curriculum</h1>
+    <body >
+         <h1 class="titulo">Curriculum</h1>
         <form action="form.html" method="get" enctype="multipart/form-data">
          <fieldset class="informacionbasica">
         <h2>Informacion basica</h2>
@@ -21,13 +21,13 @@
         <p>fecha de nacimiento</p>
                 <input type="date" id="id_date" name="n_date" value="2017-12-31"/>
         </fieldset>
-        <fieldset>
+        <fieldset class="nacionalidad">
                 <h2>nacionalidad</h2>
                 <input type="radio" id="id_radio1" name="n_radio" value="a" checked/>Española
                 <input type="radio" id="id_radio2" name="n_radio" value="c"/>Comunitario(UE)
                 <input type="radio" id="id_radio3" name="n_radio" value="g"/>No comunitario
         </fieldset>
-        <fieldset>
+        <fieldset class="estudios">
                 <h2>Estudios</h2>
                 <select id="id_select" name="n_select">
                     <option value="default" selected>Default text</option>
@@ -36,14 +36,14 @@
                     <option value="g">construcion</option>
                 </select>
         </fieldset>
-        <fieldset>
+        <fieldset class="idiomas">
                 <h2>idiomas</h2>
                 <input type="checkbox" id="id_checkbox1" name="n_checkbox[]" value="a" checked/>Catalán
                 <input type="checkbox" id="id_checkbox2" name="n_checkbox[]" value="c"/>Castellano
                 <input type="checkbox" id="id_checkbox3" name="n_checkbox[]" value="g"/>Ingles
                 <input type="checkbox" id="id_checkbox4" name="n_checkbox[]" value="t"/>Chino
         </fieldset>
-        <fieldset>
+        <fieldset class="final">
 
         <input type="submit" id="id_submit" name="n_submit" value="Enviar"/>
         <input type="reset" id="id_reset" name="n_reset" value="cancelar"/>

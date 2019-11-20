@@ -1,3 +1,23 @@
+
 .informacionbasica{
     background-color: coral;
+    margin: 25px;
+}
+.nacionalidad{
+    background-color: green;
+    margin: 25px;
+}
+.estudios{
+    background-color: plum;
+    margin: 25px;
+}
+.titulo{
+    text-align: center;
+}
+.idiomas{
+    background-color: blue; 
+    margin: 25px;
+}
+.final{
+    background-color: gray;
 }
