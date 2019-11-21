@@ -1,0 +1,40 @@
+table{
+    width: 100%;
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
+
+.mini14{
+    background-color: blueviolet;
+    text-align: center;
+    margin: 5px;
+}
+.kark98{
+    text-align: center;
+    background-color: blueviolet;
+    margin: 5px;
+}
+.M24{
+    background-color: blueviolet;
+    text-align: center;
+    margin: 5px;
+}
+.Awm{
+    background-color: blueviolet;
+    text-align: center;
+    margin: 5px;
+}
+.m24{
+  text-align: center
+}
+.kar98{
+}
+.tabla1{
+    font-family: 'Lato', sans-serif; 
+}
+div{
+   text-align: center;
+}
+
