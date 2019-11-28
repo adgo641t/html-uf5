@@ -1,0 +1,22 @@
+.cabezera{
+    background-color: #ff0000;
+    text-align: center;  
+}
+
+.index{
+    background-color: brown;
+    float: left;
+}
+
+.texto{
+    background-color: wheat;
+    text-align: center;
+    height: 100%;
+    width: 72%;
+    float: left;
+}
+.banner{
+    float: right;
+    background-color: orange;
+    float: right;
+}
