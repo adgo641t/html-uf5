@@ -6,17 +6,33 @@
 .index{
     background-color: brown;
     float: left;
+    height: 500px;
 }
 
 .texto{
     background-color: wheat;
-    text-align: center;
-    height: 100%;
+text-align: center;
+    height: 500px;
     width: 72%;
     float: left;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .banner{
     float: right;
-    background-color: orange;
     float: right;
+    background-color: aquamarine;
+    width: 18.2%;
+    height: 500px;
+}
+.pie{
+    background-color: rgb(251, 255, 0);
+    float: left;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.gif{
+    height:300px;
+    width:2000px;
 }
