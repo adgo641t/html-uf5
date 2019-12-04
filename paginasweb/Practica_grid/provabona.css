@@ -1,0 +1,35 @@
+div{
+    border: solid black;
+}
+#goku1{
+    display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-column-start: 3;
+}
+
+#termina{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-column-end: 4; 
+}
+#div3{
+    display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-column-end: span 2;
+}
+
+#div4{
+    display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-column: 4/6
+}
+#div5{
+    display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-row: 3;
+}
