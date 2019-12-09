@@ -1,39 +1,28 @@
- <?xml version="1.0" encoding="UTF-8"?>
-    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-    <!--
-        comentaris externs
-    -->
-    <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
-        <head>
-            <title>Títol de la pestanya</title>
-            <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        </head>
-        <body>
-            <!--
-                comentaris interns
-            -->
-            <p>esto es una pagina de formulario</p>
-            <p>esto es una pagina de formulario2</p>
-            <form action="form.html" method="get" enctype="multipart/form-data">
-                <fieldset>
-                    <legend>datos personales</legend>
-                    <input type="text" id="id_text" name="n_text" value="Default text" placeholder="Input text" required/>
-                </fieldset>
-                <fieldset>
-                    <legend>otros datos</legend>
-                    <h2>email</h2>
-                <label for="id_email">Input email:</label>
-                <input type="email" id="id_email" name="n_email" value="default@default"/>
-                </fieldset>
-                <fieldset>
-                    <legend>botones</legend>
-                    <h2>submit</h2>
-                    <input type="submit" id="id_submit" name="n_submit" value="SUBMIT"/>
-     
-                    <h2>reset</h2>
-                    <input type="reset" id="id_reset" name="n_reset" value="RESET"/>
-     
-                </fieldset>
-        </body>
-    </html>
+<!DOCTYPE html>
+<!--
+    comentaris externs
+-->
+<html lang="en">
+    <head>
+        <title>Títol de la pestanya</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="css/ex2.css"/>
+    </head>
+    <body>
+        <div>Contingut del document o pàgina</div>
+        <p class="texto"><b>Informacion sobre el producto</b></p>
+        <fieldset>
+            <legend class="titulos">datos basicos</legend>
+            <p><b>Nombre</b></p>
+            <fieldset></fieldset>
+            <p><b>Descripcion</b></p>
+            <fieldset></fieldset>
+            <p><b>Foto</b></p>
+            <fieldset></fieldset>
+            h2>checkbox</h2>
+                <label>Click multiple options:</label>
+                <input type="checkbox" id="id_checkbox1" name="n_checkbox[]" value="a" checked/>adenine
+        </fieldset>
+    </body>
+</html>

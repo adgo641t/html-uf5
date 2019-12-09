@@ -1,0 +1,120 @@
+#contain_wrapper
+{
+    margin: auto;
+    width: 900px;
+}
+
+header
+{
+	background-color: red;
+}
+
+header img
+{
+    width: 25%;
+    height: 50px;
+    background-color: blue;
+}
+
+#tituloprincipal
+{
+    display: inline-block;
+    background-color: blue;
+}
+
+header h1
+{
+    font-family: serif;
+    width: normal;
+    size: 2.5em;
+}
+
+header h2
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+header img, header h1
+{
+    display: inline block;
+    margin-bottom: 0px;
+}
+nav
+{
+display: inline-block;
+width: 540px;
+text-align: right;
+background-color: orange;
+}
+
+nav ul
+{
+list-style-type: none;
+}
+
+nav li
+{
+display: inline-block;
+margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.5em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+color: #760001;
+border-top: 3px solid #760001;
+border-top: 3px solid #760001;
+}
+
+#banner_image
+{
+background: url('imatges/sanfrancisco.jpg')repeat-x;
+margin: 10px;
+height: 200px;
+position: relative;
+width: 100%;
+border-radius: 5px;
+margin: 20px;
+box-shadow: 0px 4px 4px orange;
+color: purple;
+
+}
+
+#banner_description
+{
+position: absolute;
+border-radius: 0px 0px 5px 5px;
+width: 99.5%;
+height: 33px;
+padding-top: 15px;
+padding-left: 4px;
+color: white;
+font-size: 0.8em;
+background-color: rgba(24,24,24,0.8);
+bottom: 1px
+}
+#red_button
+{
+    display: inline-block;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+        border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
