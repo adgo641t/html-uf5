@@ -207,6 +207,8 @@ width: 28%;
 
 #my_pictures img
 {
+    border: 1px solid black;
+    margin-right: 2px;
 
 }
 
