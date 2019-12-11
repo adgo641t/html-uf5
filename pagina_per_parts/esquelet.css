@@ -84,7 +84,7 @@ height: 200px;
 position: relative;
 width: 100%;
 border-radius: 5px;
-margin: 20px;
+margin: 2px;
 box-shadow: 0px 4px 4px orange;
 color: purple;
 
@@ -117,4 +117,129 @@ bottom: 1px
     padding: 3px 8px 0px 8px;
     color: white;
     text-decoration: none;
+}
+
+
+article, aside
+{
+text-align: justify;
+display: inline-block;
+vertical-align: top;
+}
+
+article
+{
+width: 625px;
+margin-right: 8px;
+font-size: 0.8em;
+}
+
+.ico_categorie
+{
+} 
+
+
+article p
+{
+}
+
+
+aside
+{
+    width: 235px;
+    background-color: grey;
+    box-shadow: 0px 2px 5px gray;
+    border: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+    display: inline-block;
+}
+
+aside h1
+{
+
+}
+
+#arrow
+{
+    top: 25px;
+    left: 250px;
+}
+
+#zozor_picture
+{
+text-align: center;
+border: 1px solid #181818;
+background: url("imatges/zozor.png")repeat-x;
+}
+#Travel_category
+{
+    margin-right: 8px;
+}
+
+aside img /*separo les imatges entre si*/
+{
+}
+
+
+#tweet
+{
+vertical-align: top;
+display: inline-block;
+width: 28%;
+}
+
+#my_pictures
+{
+    vertical-align: top;
+    display: inline-block;
+    width: 35%;
+}
+
+#my_friends
+{
+    vertical-align: top;
+    display: inline-block;
+    width: 31%;
+    decora
+}
+
+#my_pictures img
+{
+
+}
+
+
+#my_friends ul
+{
+vertical-align: top;
+display: inline-block;
+margin-top: 0px;
+width: 48%;
+padding-right: 2px;
+list-style-image: url("imatges/external_link.png");
+}
+
+#my_friends a
+
+{
+
+}
+
+
+footer
+{
+
+}
+
+
+footer p, footer ul
+{
+
+}
+
+footer h1
+{
+    font-size: 1.1em;
 }
