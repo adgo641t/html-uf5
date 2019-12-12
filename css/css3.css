@@ -1,0 +1,80 @@
+.borde1
+{
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px; 
+    margin: 20px;
+}
+.borde2{
+    border-radius: 15px 50px 30px;
+    padding: 20px;
+    width: 200px;
+    height: 150px; 
+    background: #73AD21;
+    margin: 20px;
+}
+.borde3{
+    border-radius: 15px 58px 30px;
+    padding: 20px;
+    width: 200px;
+    height: 150px; 
+    background: #73AD21;
+    margin: 20px;
+}
+.borde4{
+    border-radius: 20% 1000000% 15%;
+    padding: 20px;
+    width: 200px;
+    height: 150px; 
+    background: #73AD21;
+    margin: 20px;
+}
+.opacidad1{
+    background-color: rgba(255, 0, 0, 0.3)
+}
+.opacidad2{
+background-color: rgba(255,0 ,0 ,0.6 )
+}
+.gradiente1{
+    background: linear-gradient(to bottom, blue, red);
+    height: 100px;
+    text-align: center;
+    font-family: lilita;
+    src: url("../paginasweb/LilitaOne-Regular.ttf")
+}
+.gradiente2{
+background: linear-gradient(to bottom, red, yellow);
+height: 50px;
+font-family: lilita;
+src: url("../paginasweb/LilitaOne-Regular.ttf")
+}
+.radial{
+    background-image: radial-gradient(red, yellow, green);
+    margin: 30px; 
+    height: 100px;
+    width: 300px;
+}
+.shadow1{
+    text-shadow: 2px 2px;
+}
+.shadow2{
+text-shadow: 2px 2px red;
+}
+.box1{
+    background-color: yellow;
+    box-shadow: 10px 10px;
+    width: 100px;
+    margin: 20px;
+}
+.box2{
+    background-color: yellow;
+    box-shadow: 10px 10px 5px grey;
+    width: 100px;
+    margin: 20px;
+}
+@font-face{
+    font-family: lilita;
+    src: url("../paginasweb/LilitaOne-Regular.ttf")
+}
