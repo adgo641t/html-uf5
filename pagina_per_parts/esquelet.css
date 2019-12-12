@@ -45,7 +45,7 @@ header img, header h1
 nav
 {
 display: inline-block;
-width: 540px;
+width: 100%;
 text-align: right;
 background-color: orange;
 }
