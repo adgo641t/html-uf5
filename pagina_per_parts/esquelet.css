@@ -110,7 +110,7 @@ bottom: 1px
     position: absolute;
     right: 5px;
     bottom: 5px;
-        border: 1px solid #760001;
+    border: 1px solid #760001;
     border-radius: 5px;
     font-size: 1.2em;
     text-align: center;
@@ -233,7 +233,7 @@ list-style-image: url("imatges/external_link.png");
 footer
 {
 font-size: 0.8em;
-background: url("imatges/top.png") no-repeat top center url("imatges/line.png")repeat-x top url("imatges/shadow.png") repeat-x top;
+background: url("imatges/top.png") no-repeat top center, url("imatges/line.png")repeat-x top, url("imatges/shadow.png") repeat-x top;
 padding-top: 25px;
 }
 
