@@ -33,27 +33,33 @@ div{
   grid-template-rows: 20% 20% 20% 20% 20%;
   grid-row: 3;
 }
-}
+
 #view2{
+  position: absolute;
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 20% 20% 20% 20% 20%;
-  order: 1;
+  order: -1;
 }
 #goku2{
+  position: relative;
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 20% 20% 20% 20% 20%;
   order: 2;
+  opacity: 30%;
 }
 #view3{
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-columns: % 20% 20% 20% 20%;
   grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-column-start: 1;
+  width: 30%;
 }
 #goku3{
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 20% 20% 20% 20% 20%;
   grid-column-start: 1;
+  width: 70%;
 }
