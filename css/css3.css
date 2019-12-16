@@ -1,4 +1,4 @@
-.borde1
+#borde1
 {
     border-radius: 25px;
     background: #73AD21;
@@ -7,7 +7,7 @@
     height: 150px; 
     margin: 20px;
 }
-.borde2{
+3borde2{
     border-radius: 15px 50px 30px;
     padding: 20px;
     width: 200px;
@@ -15,7 +15,7 @@
     background: #73AD21;
     margin: 20px;
 }
-.borde3{
+#borde3{
     border-radius: 15px 58px 30px;
     padding: 20px;
     width: 200px;
@@ -23,7 +23,7 @@
     background: #73AD21;
     margin: 20px;
 }
-.borde4{
+#borde4{
     border-radius: 20% 1000000% 15%;
     padding: 20px;
     width: 200px;
@@ -31,27 +31,27 @@
     background: #73AD21;
     margin: 20px;
 }
-.opacidad1{
+#opacidad1{
     background-color: rgba(255, 0, 0, 0.3)
 }
-.opacidad2{
+#opacidad2{
 background-color: rgba(255,0 ,0 ,0.6 )
 }
-.gradiente1{
+#gradiente1{
     background: linear-gradient(to bottom, blue, red);
     height: 100px;
     text-align: center;
     font-family: lilita;
     src: url("../paginasweb/LilitaOne-Regular.ttf")
 }
-.gradiente2{
+#gradiente2{
 background: linear-gradient(to bottom, red, yellow);
 height: 50px;
 font-family: lilita;
 src: url("../paginasweb/LilitaOne-Regular.ttf")
 }
-.radial{
-    background-image: radial-gradient(red, yellow, green);
+#radial{
+   background-image: radial-gradient(red, yellow, green);
     margin: 30px; 
     height: 100px;
     width: 300px;
@@ -62,13 +62,13 @@ src: url("../paginasweb/LilitaOne-Regular.ttf")
 .shadow2{
 text-shadow: 2px 2px red;
 }
-.box1{
+#box1{
     background-color: yellow;
     box-shadow: 10px 10px;
     width: 100px;
     margin: 20px;
 }
-.box2{
+#box2{
     background-color: yellow;
     box-shadow: 10px 10px 5px grey;
     width: 100px;
@@ -78,3 +78,58 @@ text-shadow: 2px 2px red;
     font-family: lilita;
     src: url("../paginasweb/LilitaOne-Regular.ttf")
 }
+#transformacion1{
+    transform: translate(50px, 100px);
+    background-color: red;
+    height: 50px;
+    width: 200px;
+}
+#transformacion2{
+    transform: rotate(20deg);
+    background-color: red;
+    height: 50px;
+    width: 300px;
+    margin: 20%
+}
+#transformacion3{
+    transform: scale(2, 3);
+    background-color: red;
+    height: 50px;
+    width: 300px;
+    margin: 20%
+}
+#transicion{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+#transicion:hover{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    transition: width 2s, height 4s;
+    animation-delay: 1s;
+}
+
+#animacion{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: Adrian;
+    animation-duration: 10s;
+    margin: 10%;
+}
+
+@keyframes Adrian {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+#columna{
+    column-count: 3;
+}
+
