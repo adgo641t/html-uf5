@@ -1,0 +1,56 @@
+#cabecera{
+display: inline-block;
+    margin: auto;
+    height: 140px;
+}
+
+#tiempo{
+    display:inline-block;
+    margin: auto;
+    height: 82px;
+}
+
+
+#sirius1{
+    margin: auto;
+    width: 754px;
+    height: 100px;
+}
+#sighted{
+    margin: auto;
+}
+
+#floats{
+    float: left;
+}
+#sirius2{
+    height: 420px;
+    width: 470px;
+}
+#izquierda3{
+    float: left;
+}
+#pie{
+    width: 470px;
+}
+#sig{
+    width: 470px;
+}
+
+#derecha1{
+    position: absolute;
+    top: 342px;
+    right: 180px;
+    height: 445px;
+}
+#iz{
+    height: 300px;
+}
+#der{
+    position: absolute;
+    top: 790px;
+    right: 180px;
+    height: 270px;
+
+
+}
