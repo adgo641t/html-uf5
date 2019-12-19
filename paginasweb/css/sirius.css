@@ -40,7 +40,7 @@ display: inline-block;
 #derecha1{
     position: absolute;
     top: 342px;
-    right: 180px;
+    left: 630px;
     height: 445px;
 }
 #iz{
@@ -49,8 +49,8 @@ display: inline-block;
 #der{
     position: absolute;
     top: 790px;
-    right: 180px;
-    height: 270px;
+    left: 630px;
+    height: 290px;
 
 
 }
