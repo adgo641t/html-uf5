@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+h2{
+    color: aquamarine;
+    text-align: center
+}
+.container ,div{
+    border: 1px solid black;
+}
