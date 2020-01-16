@@ -2,18 +2,13 @@ h1{
     text-align: center;
     background-color: blue;
     color: white;
-    border: 1px solid black;
 }
 h2{
     color: aquamarine;
     text-align: center
 }
-.container ,div{
-
-}
 .imagenes{
-    border: 1px solid black;
-    border-collapse: collapse; 
+    border: 1px solid black; 
 }
 .col-iz{
     background-color: pink;
@@ -23,13 +18,6 @@ h2{
     font-size: 15px;
 }
 
-.border_rojo
-{
-    border:1px solid red;
-}
-.carrousel{
-    color: aqua;
-}
 .col1{
     background-color: aquamarine;
 }
@@ -45,4 +33,7 @@ h2{
     .pie{
         font-size: 18px;
     }
+  }
+  .container{
+      border: 1px solid black;
   }
