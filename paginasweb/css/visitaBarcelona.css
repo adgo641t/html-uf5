@@ -2,11 +2,37 @@ h1{
     text-align: center;
     background-color: blue;
     color: white;
+    border: 1px solid black;
 }
 h2{
     color: aquamarine;
     text-align: center
 }
 .container ,div{
+
+}
+.imagenes{
     border: 1px solid black;
+    border-collapse: collapse; 
+}
+.col-iz{
+    background-color: pink;
+}
+.col-der{
+    background-color: orange;
+    font-size: 15px;
+}
+
+.border_rojo
+{
+    border:1px solid red;
+}
+.carrousel{
+    color: aqua;
+}
+.col1{
+    background-color: aquamarine;
+}
+.col2{
+    background-color: wheat;
 }
