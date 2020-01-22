@@ -47,4 +47,38 @@ h1{
   border: 1px solid black;
   color: yellow;
   background-color: blue;
+
 }
+
+
+
+
+
+.div-img .hidden{
+  overflow: hidden;
+
+}
+.gogeta1 .gogeta2 {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  -moz-transform: translate(0px, 0px);
+  -webkit-transform: translate(0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.gogeta1:hover .gogeta2{
+  transform: translate(0px, -330.2px);
+  -ms-transform: translate(0px, -330.2px);
+  -moz-transform: translate(0px, -330.2px);
+  -webkit-transform: translate(0px, -330.2px);
+  -o-transform: translate(0px, -330.2px);
+}
+
