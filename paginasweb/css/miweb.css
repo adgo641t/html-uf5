@@ -75,10 +75,10 @@ h1{
   -o-transition: all 500ms ease-in-out;
 }
 .gogeta1:hover .gogeta2{
-  transform: translate(0px, -330.2px);
-  -ms-transform: translate(0px, -330.2px);
-  -moz-transform: translate(0px, -330.2px);
-  -webkit-transform: translate(0px, -330.2px);
-  -o-transform: translate(0px, -330.2px);
+  transform: translate(0px, -500px);
+  -ms-transform: translate(0px, -500px);
+  -moz-transform: translate(0px, -500px);
+  -webkit-transform: translate(0px, -500px);
+  -o-transform: translate(0px, -500x);
 }
 
